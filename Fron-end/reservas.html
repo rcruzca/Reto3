@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<title>Rent a Car</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilosR2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/freservas.js"></script>
+</head>
+
+ <body>
+    <header>
+        <div class="caja">
+           <h1 class="logo">RENTaCAR</h1>
+           <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vehiculo.html">Vehiculos</a></li>
+                <li><a href="cliente.html">Clientes</a></li>
+               <li><a href="reservas.html">Reservas</a></li>
+               <li><a href="mensajes.html">Mensajes</a></li>                  
+            </ul>
+           </nav>
+        </div>
+       </header>
+    <div><h1>Crear Reservas</h1>
+        <input type="text" id="startdate" placeholder="fecha de inicio">
+        <input type="text" id="devolutiondate" placeholder="fecha de devolución">
+        <input type="text" id="clientId" placeholder="id Cliente">
+        <input type="text" id="carId" placeholder="Id vehiculo">
+        
+         
+    </div>
+        <button onclick="guardarInformacion()"> Insertar</button>
+        <button onclick="editarInformacion()">Actualizar</button> 
+    <div>
+        <h1>Consultar reservas</h1>
+        <input type="text" id="reservationId" placeholder="codigo reserva">
+         
+    </div>
+    <button onclick="traerInformacion()"> Consultar todos</button>
+    <button onclick="consultarId()">consultar por id </button>
+
+    
+
+
+<div id="resultado">
+
+</div>
+
+
+ </body>
+ </html>
