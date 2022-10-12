@@ -48,7 +48,7 @@ function guardarInformacion(){
     $.ajax (
         {
 
-            url          : 'http://localhost:8080/api/Client/save',
+            url          : 'http://http://129.146.18.141:8080/api/Client/save',
             type         : 'POST',
             data         :  dataToSend,
             datatype     :  "JSON",

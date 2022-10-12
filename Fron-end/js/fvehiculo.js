@@ -56,7 +56,7 @@ function guardarInformaciongama(){
     $.ajax (
         {
 
-            url          : 'http://localhost:8080/api/Gama/save',
+            url          : 'http://129.146.18.141:8080/api/Gama/save',
             type         : 'POST',
             data         :  dataToSend,
             datatype     :  "JSON",
@@ -103,7 +103,7 @@ function guardarInformacion(){
     $.ajax (
         {
 
-            url          : 'http://localhost:8080/api/Car/save',
+            url          : 'http://129.146.18.141:8080/api/Car/save',
             type         : 'POST',
             data         :  dataToSend,
             datatype     :  "JSON",

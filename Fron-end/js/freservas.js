@@ -8,7 +8,7 @@ function guardarInformacion(){
     $.ajax (
         {
 
-            url          : 'http://localhost:8080/api/Reservation/save',
+            url          : 'http://129.146.18.141:8080/api/Reservation/save',
             type         : 'POST',
             data         :  dataToSend,
             datatype     :  "JSON",
